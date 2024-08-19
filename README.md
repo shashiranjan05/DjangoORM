@@ -2,7 +2,7 @@
 Django ORM = Query Sets with example 
 
 #Django ORM 
-##One To One Relationships
+# One To One Relationships
   class Customer(models.Model):
     name = models.CharField(max_length=255)
   class Vehicle(models.Model):
@@ -14,8 +14,8 @@ Django ORM = Query Sets with example
     )
 
 
-##One To Many Relationships
-  # Create your models here.
+# One To Many Relationships
+  #Create your models here.
 class Customer(models.Model):
     name = models.CharField(max_length=255)
 class Vehicle(models.Model):
@@ -27,7 +27,7 @@ class Vehicle(models.Model):
     )
 
 
-##Many To Many Relationships
+# Many To Many Relationships
   class Worker(models.Model):
     name = models.CharField(max_length=255)
 class Machine(models.Model):
