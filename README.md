@@ -1,4 +1,4 @@
-# DjangoORM
+# Django ORM
 Django ORM = Query Sets with example 
 
 ### to get all objects in a model
@@ -35,7 +35,7 @@ Django ORM = Query Sets with example
 ```
 
 #Django ORM
-# One To One Relationships
+## One To One Relationships
  ```
   class Customer(models.Model):
     name = models.CharField(max_length=255)
@@ -49,7 +49,7 @@ Django ORM = Query Sets with example
 
 ```
 
-# One To Many Relationships
+## One To Many Relationships
   #Create your models here.
  ```
 class Customer(models.Model):
@@ -63,7 +63,7 @@ class Vehicle(models.Model):
     )
 ```
 
-# Many To Many Relationships
+## Many To Many Relationships
 
 ```
   class Worker(models.Model):
