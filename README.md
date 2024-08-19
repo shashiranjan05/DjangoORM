@@ -2,6 +2,7 @@
 Django ORM = Query Sets with example 
 #Django ORM
 # One To One Relationships
+ ```
   class Customer(models.Model):
     name = models.CharField(max_length=255)
   class Vehicle(models.Model): 
@@ -12,7 +13,8 @@ Django ORM = Query Sets with example
         related_name='vehicle'
     )
 
-
+```
+```
 # One To Many Relationships
   #Create your models here.
 class Customer(models.Model):
@@ -24,7 +26,8 @@ class Vehicle(models.Model):
         on_delete=models.CASCADE,
         related_name='Vehicle'
     )
-
+```
+```
 
 # Many To Many Relationships
   class Worker(models.Model):
@@ -35,3 +38,4 @@ class Machine(models.Model):
         Worker,
         related_name='Machine'
     )
+```
