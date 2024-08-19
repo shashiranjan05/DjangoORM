@@ -5,7 +5,7 @@ Django ORM = Query Sets with example
 # One To One Relationships
   class Customer(models.Model):
     name = models.CharField(max_length=255)
-  class Vehicle(models.Model):
+  class Vehicle(models.Model): 
     name = models.CharField(max_length=255)
     customer = models.OneToOneField(
         Customer,
