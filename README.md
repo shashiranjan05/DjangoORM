@@ -1,6 +1,5 @@
 # DjangoORM
 Django ORM = Query Sets with example 
-
 #Django ORM 
 # One To One Relationships
   class Customer(models.Model):
