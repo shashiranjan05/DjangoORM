@@ -48,9 +48,10 @@ Django ORM = Query Sets with example
     )
 
 ```
-```
+
 # One To Many Relationships
   #Create your models here.
+ ```
 class Customer(models.Model):
     name = models.CharField(max_length=255)
 class Vehicle(models.Model):
@@ -61,9 +62,10 @@ class Vehicle(models.Model):
         related_name='Vehicle'
     )
 ```
-```
 
 # Many To Many Relationships
+
+```
   class Worker(models.Model):
     name = models.CharField(max_length=255)
 class Machine(models.Model):
