@@ -1,6 +1,6 @@
 # DjangoORM
 Django ORM = Query Sets with example 
-#Django ORM 
+#Django ORM
 # One To One Relationships
   class Customer(models.Model):
     name = models.CharField(max_length=255)
