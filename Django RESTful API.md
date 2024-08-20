@@ -2,7 +2,7 @@
 ### steps to create RESTful API
 ```
 1. Create Django project
-2. Setup Django ***models***
+2. Setup Django **models**
 3. Set up Serializers
 4. Set Up Views
 5. Set Up URLs
