@@ -19,7 +19,14 @@ Django ORM = Query Sets with example
 
 ### Ordering objects
 ```
->>> Post.objects.order_by('created_date')
+>>> Post.objects.order_by('created_date')  {in ascending order}
+>>> Post.objects.order_by('-created_date')  {in descending order}
+
+```
+## to fetch only LIMITED data
+```
+>>> Post.objects.all().order_by('created_date')[0:3]
+
 ```
 ### deleting objects
 ```
